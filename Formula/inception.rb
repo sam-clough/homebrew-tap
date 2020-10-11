@@ -7,11 +7,11 @@ class Inception < Formula
 
   if OS.mac?
     url "https://github.com/sam-clough/inception/releases/download/v0.1.3/inception_0.1.3_Darwin_x86_64.tar.gz", :using => GitHubGitDownloadStrategy
-    sha256 "95e01e8862a5641a1696066585899e3d28cee46f0988f9ff1eff2c1e3aca4da6"
+    sha256 "6cb0b373c70f1bf79dac8ba8e17d3846080e90f5f31b76fc160726af934faac4"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/sam-clough/inception/releases/download/v0.1.3/inception_0.1.3_Linux_x86_64.tar.gz", :using => GitHubGitDownloadStrategy
-      sha256 "6a723d64ab1df4f8679abbe13bee780b3f5309e65c0bfe75f74b96a91403a938"
+      sha256 "e1d9adc3cb9400850a9b63404a29e405a006469b541b729fa6f60dfcc4b801c4"
     end
   end
 
