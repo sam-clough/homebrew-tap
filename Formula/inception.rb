@@ -2,16 +2,16 @@
 class Inception < Formula
   desc "scaffolding tool"
   homepage "https://github.com/sam-clough/inception"
-  version "0.1.2"
+  version "0.1.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/sam-clough/inception/releases/download/v0.1.2/inception_0.1.2_Darwin_x86_64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-    sha256 "57b87129ec587bc6ab0dc752ba6914ae827293c8e9d163fbec6103d0245eb50b"
+    url "https://github.com/sam-clough/inception/releases/download/v0.1.3/inception_0.1.3_Darwin_x86_64.tar.gz", :using => GitHubGitDownloadStrategy
+    sha256 "95e01e8862a5641a1696066585899e3d28cee46f0988f9ff1eff2c1e3aca4da6"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/sam-clough/inception/releases/download/v0.1.2/inception_0.1.2_Linux_x86_64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-      sha256 "1135c4e0936d7f765e8049c94af654d020014bfb190bba19c0ca8647ae3306e4"
+      url "https://github.com/sam-clough/inception/releases/download/v0.1.3/inception_0.1.3_Linux_x86_64.tar.gz", :using => GitHubGitDownloadStrategy
+      sha256 "6a723d64ab1df4f8679abbe13bee780b3f5309e65c0bfe75f74b96a91403a938"
     end
   end
 
